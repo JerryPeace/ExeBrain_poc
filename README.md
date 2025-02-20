@@ -86,24 +86,11 @@ The application maps EEG frequency bands to different mental states:
 - Includes artificial processing delay to simulate network conditions
 - Provides status updates to the main thread
 
+
 ## Getting Started
 
 ```bash
-# Install dependencies
-npm install
-# or
-yarn install
-
-# Run the development server
-npm run dev
-# or
-yarn dev
+docker compase up -d
 ```
+And then, head to http://localhost:3000/socket-sample
 
-## Future Enhancements
-
-- Implement authentication for secure data handling
-- Add user profiles and session history
-- Enhance visualizations with more sophisticated feedback mechanisms
-- Implement offline mode with sync capabilities
-- Add analytics dashboard for tracking progress over time
