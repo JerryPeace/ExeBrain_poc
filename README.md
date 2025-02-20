@@ -90,7 +90,7 @@ The application maps EEG frequency bands to different mental states:
 ## Getting Started
 
 ```bash
-docker compase up -d
+docker compase up
 ```
 And then, head to http://localhost:3000/socket-sample
 
